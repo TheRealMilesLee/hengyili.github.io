@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "hengyili.github.io",
   "resources": {
-    "hash": "sha256-Ysl0Ms3BNHA6eBg25zEgQCR+CGizQuynl87ANUm0ZCE=",
+    "hash": "sha256-+MwfQw7zl4Y0BtbytP7IsRyz6zAE3m2FDdgEbMalxDE=",
     "jsModuleNative": {
       "dotnet.native.8.0.2.jgt5nhn140.js": "sha256-gPMK16QWoJSTxorlZJqcVtbBRTniIQWlLsJN2O4cJHg="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "hengyili.github.io.wasm": "sha256-yRhfqidnc2rrOppA29E3A6CaStHPzvyekxI4RiVQiRw=",
+      "hengyili.github.io.wasm": "sha256-Vo7tUFRmxNvU9VSid8IrcAhtYU3cr9L3Hl6r96ndQV0=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-BaMFfSzjGinMJ3jxG4mbHkDAgQ5ZxGMdrrgshYjtWs4=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-7KkqwwQtcN+NHevIKYhJ2gLZJa3f0aShCl2ldtegyXw=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-jrdFRjrF1131MZ3HGQVsI3dX8cLdZvPz85lsBltxjSM=",
