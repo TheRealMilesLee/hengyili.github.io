@@ -434,6 +434,16 @@ body[b-cnvp5ly832] {
     margin-bottom: 10px;
 }
 
+.section[b-cnvp5ly832] {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+    .section.visible[b-cnvp5ly832] {
+        opacity: 1;
+    }
+
+
 /* Footer Section */
 .footer[b-cnvp5ly832] {
     text-align: center;
@@ -464,6 +474,7 @@ body[b-cnvp5ly832] {
         font-size: 1rem;
     }
 }
+
 /* /Pages/Projects.razor.rz.scp.css */
 /* Reset some default styles */
 body[b-jhbcu7axjv], h1[b-jhbcu7axjv], h2[b-jhbcu7axjv], h3[b-jhbcu7axjv], p[b-jhbcu7axjv], span[b-jhbcu7axjv], hr[b-jhbcu7axjv], a[b-jhbcu7axjv] {
