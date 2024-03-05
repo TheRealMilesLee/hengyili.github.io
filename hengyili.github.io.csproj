@@ -15,4 +15,8 @@
     <Folder Include="Pages\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include=".github\workflows\main.yml" />
+  </ItemGroup>
+
 </Project>
