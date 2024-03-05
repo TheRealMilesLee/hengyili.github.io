@@ -1,29 +1,61 @@
 ﻿@page "/"
 <PageTitle>Home</PageTitle>
 <!-- Header Section -->
-<header class="header">
+<Animate Anchor="#b-animate" Auto Animation="Animations.FadeUp" DelayMilliseconds="500">
+<header class="header" @key="1">
     <h1 class="header h1">Hengyi Li</h1>
     <p class="header p">Master of Computer Science | GFW Security Analyst | Dreamer | Coder | Content Creator </p>
 </header>
-
+</Animate>
 <body class="body">
-    <h2 class="h2">About Me</h2>
-    <p class="p">
-    Hello, this is Miles Lee, a passionate Computer Science graduate student at the University of California – Davis, specializing in GFW Security Analysis. 
-    With a solid academic foundation from Truman State University, where I majored in Computer Science, I have honed my skills in a diverse range of programming languages and technologies.
-    </p>
-    <br />
+    <!-- About Me Section -->
+    <Animate Anchor="#b-animate" Auto Animation="Animations.FadeUp" DelayMilliseconds="1000">
+        <h2 class="h2" >About Me</h2>
+        <p class="p">
+        Hello, this is Miles Lee, a passionate Computer Science graduate student at the University of California – Davis, specializing in GFW Security Analysis. 
+        With a solid academic foundation from Truman State University, where I majored in Computer Science, I have honed my skills in a diverse range of programming languages and technologies.
+        </p>
+        <br />
+    </Animate>
+    <!--Project Section-->
+    <Animate Anchor="#b-animate" Auto Animation="Animations.FadeUp" DelayMilliseconds="1500">
+        <h2 class="h2">Projects</h2>
+        <p class="p">
+            I have worked on a variety of projects, including a web-based application for a local business, a mobile app for a non-profit organization, and a game for a class project.
+        </p>
+        <br />
+    </Animate>
+    <!-- Skills Section -->
+    <Animate Anchor="#b-animate" Auto Animation="Animations.FadeUp" DelayMilliseconds="2000">
+        <h2 class="h2">Skills</h2>
+        <ul class="ul">
+            <li class="li">Programming Languages: Swift,Java, Python, C/C++, C#, JavaScript, HTML, CSS, SQL, PHP, Bash </li>
+            <li class="li">Technologies: Git, Docker, gem5, Kubernetes, AWS, Azure, Visual Studio, Visual Studio Code, JUnit,Slack, Microsoft Office, Adobe Creative Suite</li>
+            <li class="li">Operating Systems: Windows, Linux, MacOS</li>
+            <li class="li">Languages: English, Mandarin Chinese</li>
+        </ul>
+        <br />
+    </Animate>
     <!-- Contact Section -->
-    <h2 class ="h2">Contact Me</h2>
-    <ul class="ul">
-        <li class="li">Email: trdli@ucdavis.edu</li>
-        <li class="li">Phone: (816) 541-9947</li>
-        <li class="li">GitHub: github.com/TheRealMilesLee</li>
-        <li class="li">LinkedIn: linkedin.com/in/hengyi-li-968744191</li>
-        <li class="li">Personal Website: coderlee.tech.blog</li>
-    </ul>
+    <Animate Anchor="#b-animate" Auto Animation="Animations.FadeUp" DelayMilliseconds="2500">
+        <h2 class="h2">Contact Me</h2>
+        <ul class="ul">
+            <li class="li">Email: trdli@ucdavis.edu</li>
+            <li class="li">Phone: (816) 541-9947</li>
+            <li class="li">GitHub: github.com/TheRealMilesLee</li>
+            <li class="li">LinkedIn: linkedin.com/in/hengyi-li-968744191</li>
+            <li class="li">Personal Website: coderlee.tech.blog</li>
+        </ul>
+        <br />
+    </Animate>
 </body>
 <!-- Footer Section -->
-<footer class="footer">
+<Animate Anchor="#b-animate" Auto Animation="Animations.FadeUp" DelayMilliseconds="3000">
+<footer class="footer" @key="6">
     <p>&copy; 2024 Hengyi Li. All rights reserved.</p>
 </footer>
+</Animate>
+
+@code 
+{
+}
