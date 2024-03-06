@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "hengyili.github.io",
   "resources": {
-    "hash": "sha256-mC/q7vb4kYhqo8YD8zuoVpDFE05TrgluCF2/jUSD1co=",
+    "hash": "sha256-zyFy7tuStRwfQp3fvdZX1rJG59drAmWg+ozJDTFOHJc=",
     "jsModuleNative": {
       "dotnet.native.8.0.2.jgt5nhn140.js": "sha256-gPMK16QWoJSTxorlZJqcVtbBRTniIQWlLsJN2O4cJHg="
     },
@@ -32,7 +32,7 @@
       "Blazorise.wasm": "sha256-c2EPb0Jl0ocgnyTFnDqQ51lS6BpRvwPXF/7/61OYtZg=",
       "DeepCloner.wasm": "sha256-JFrc0XdxhCpcC/rNoZ4sGLtZTNiex5j561fsLJEixRY=",
       "FluentValidation.wasm": "sha256-l5C6Hah5csf2YxCt4mtm2yt4a0mmDTgbagMAtjU33rk=",
-      "hengyili.github.io.wasm": "sha256-R4udl5mfzQgHkH5NXHZjP5h5Mr2Otcnyh0w23ubdY1c=",
+      "hengyili.github.io.wasm": "sha256-JGg/reSH2rTWbyBP2sJ6o7YDby39/me00UWqZYRFG4c=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-tQWo4apRggQgYlNYimWbvasbCOJNslJPpuey90vaNgM=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-wdsOeXgNdVMoHTPAjOdq1WFx7gvdXeGl2H3kF0jtzCU=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-yQHL7UxYNI74VMLXcp5bfFD/VijMRBnbyRQINROfFDw=",
