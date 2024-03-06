@@ -8,51 +8,71 @@
 </header>
 </Animate>
 <body class="body">
-    <!-- About Me Section -->
-    <Animate Anchor="#b-animate" Auto Animation="Animations.FadeUp" DelayMilliseconds="1000">
-        <h2 class="h2" >About Me</h2>
-        <p class="p">
-        Hello, this is Miles Lee, a passionate Computer Science graduate student at the University of California – Davis, specializing in GFW Security Analysis. 
-        With a solid academic foundation from Truman State University, where I majored in Computer Science, I have honed my skills in a diverse range of programming languages and technologies.
-        </p>
-        <br />
-    </Animate>
+    <Animate Anchor="#b-animate" Auto Animation="Animations.SlideLeft" DelayMilliseconds="1000">
+    <CardDeck>
+    <!-- About Me Section -->   
+        <Card>
+            <CardHeader>
+                <h2 className="h2">About Me</h2>
+            </CardHeader>
+            <CardBody>
+                <CardText>
+                    Hello, this is Miles Lee, a passionate Computer Science graduate student at the University of California – Davis, specializing in GFW Security Analysis.
+                    With a solid academic foundation from Truman State University, where I majored in Computer Science, I have honed my skills in a diverse range of programming languages and technologies.
+                </CardText>
+            </CardBody>
+        </Card>
     <!--Project Section-->
-    <Animate Anchor="#b-animate" Auto Animation="Animations.FadeUp" DelayMilliseconds="1500">
-        <h2 class="h2">Projects</h2>
-        <p class="p">
-            I have worked on a variety of projects, including a web-based application for a local business, a mobile app for a non-profit organization, and a game for a class project.
-        </p>
-        <br />
-    </Animate>
+        <Card>
+            <CardHeader>
+                <h2 className="h2">Projects</h2>
+            </CardHeader>
+            <CardBody>
+                <CardText>
+                    I have worked on a variety of projects, including a web-based application for a local business, a mobile app for a non-profit organization, and a game for a class project.
+                </CardText>
+            </CardBody>
+        </Card>
     <!-- Skills Section -->
-    <Animate Anchor="#b-animate" Auto Animation="Animations.FadeUp" DelayMilliseconds="2000">
-        <h2 class="h2">Skills</h2>
-        <ul class="ul">
-            <li class="li">Programming Languages: Swift,Java, Python, C/C++, C#, JavaScript, HTML, CSS, SQL, PHP, Bash </li>
-            <li class="li">Technologies: Git, Docker, gem5, Kubernetes, AWS, Azure, Visual Studio, Visual Studio Code, JUnit,Slack, Microsoft Office, Adobe Creative Suite</li>
-            <li class="li">Operating Systems: Windows, Linux, MacOS</li>
-            <li class="li">Languages: English, Mandarin Chinese</li>
-        </ul>
-        <br />
-    </Animate>
+        <Card>
+            <CardHeader>
+                <h2 className="h2">Skills</h2>
+            </CardHeader>
+            <CardBody>
+                <CardText>
+                    <ul className="ul">
+                        <li className="li">Programming Languages: Swift, Java, Python, C/C++, C#, JavaScript, HTML, CSS, SQL, PHP, Bash</li>
+                        <li className="li">Technologies: Git, Docker, gem5, Kubernetes, AWS, Azure, Visual Studio, Visual Studio Code, JUnit, Slack, Microsoft Office, Adobe Creative Suite</li>
+                        <li className="li">Operating Systems: Windows, Linux, MacOS</li>
+                        <li className="li">Languages: English, Mandarin Chinese</li>
+                    </ul>
+                </CardText>
+            </CardBody>
+        </Card>
     <!-- Contact Section -->
-    <Animate Anchor="#b-animate" Auto Animation="Animations.FadeUp" DelayMilliseconds="2500">
-        <h2 class="h2">Contact Me</h2>
-        <ul class="ul">
-            <li class="li">Email: trdli@ucdavis.edu</li>
-            <li class="li">Phone: (816) 541-9947</li>
-            <li class="li">GitHub: github.com/TheRealMilesLee</li>
-            <li class="li">LinkedIn: linkedin.com/in/hengyi-li-968744191</li>
-            <li class="li">Personal Website: coderlee.tech.blog</li>
-        </ul>
-        <br />
+        <Card>
+            <CardHeader>
+                <h2 className="h2">Contact Me</h2>
+            </CardHeader>
+            <CardBody>
+                <CardText>
+                    <ul className="ul">
+                        <li className="li">Email: trdli@ucdavis.edu</li>
+                        <li className="li">Phone: (816) 541-9947</li>
+                        <li className="li">GitHub: github.com/TheRealMilesLee</li>
+                        <li className="li">LinkedIn: linkedin.com/in/hengyi-li-968744191</li>
+                        <li className="li">Personal Website: coderlee.tech.blog</li>
+                    </ul>
+                </CardText>
+            </CardBody>
+        </Card>
+    </CardDeck>
     </Animate>
 </body>
 <!-- Footer Section -->
-<Animate Anchor="#b-animate" Auto Animation="Animations.FadeUp" DelayMilliseconds="3000">
+<Animate Anchor="#b-animate" Auto Animation="Animations.FadeIn" DelayMilliseconds="2750">
 <footer class="footer" @key="6">
-    <p>&copy; 2024 Hengyi Li. All rights reserved.</p>
+    <p>&copy; 2024 Hengyi Li. All rights reserved. | Contact me | </p>
 </footer>
 </Animate>
 

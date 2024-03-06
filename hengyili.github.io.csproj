@@ -7,17 +7,30 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\scripts\**" />
+    <Content Remove="wwwroot\scripts\**" />
+    <EmbeddedResource Remove="wwwroot\scripts\**" />
+    <None Remove="wwwroot\scripts\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Blazorise" Version="1.4.2" />
     <PackageReference Include="Blazorise.Animate" Version="1.4.2" />
     <PackageReference Include="Blazorise.Bootstrap" Version="1.4.2" />
+    <PackageReference Include="Blazorise.Bootstrap5" Version="1.4.2" />
+    <PackageReference Include="Blazorise.Components" Version="1.4.2" />
+    <PackageReference Include="Blazorise.FluentValidation" Version="1.4.2" />
+    <PackageReference Include="Blazorise.Icons.Bootstrap" Version="1.4.2" />
     <PackageReference Include="Blazorise.Icons.FontAwesome" Version="1.4.2" />
+    <PackageReference Include="Blazorise.Icons.Material" Version="1.4.2" />
+    <PackageReference Include="Blazorise.Markdown" Version="1.4.2" />
+    <PackageReference Include="Blazorise.Material" Version="1.4.2" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.2" PrivateAssets="all" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include=".github\workflows\main.yml" />
-    <None Include="wwwroot\scripts\Home.js" />
   </ItemGroup>
 
 </Project>
