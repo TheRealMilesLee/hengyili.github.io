@@ -1,0 +1,63 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = hengyili.github.io
+build_property.RootNamespace = hengyili.github.io
+build_property.ProjectDir = D:\Developer\SourceRepository\hengyili.github.io\hengyili.github.io\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Developer\SourceRepository\hengyili.github.io\hengyili.github.io
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Developer/SourceRepository/hengyili.github.io/hengyili.github.io/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Developer/SourceRepository/hengyili.github.io/hengyili.github.io/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Developer/SourceRepository/hengyili.github.io/hengyili.github.io/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Developer/SourceRepository/hengyili.github.io/hengyili.github.io/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-mu7s4iwmfj
+
+[D:/Developer/SourceRepository/hengyili.github.io/hengyili.github.io/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-2lscns3acz
+
+[D:/Developer/SourceRepository/hengyili.github.io/hengyili.github.io/Pages/Education.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWR1Y2F0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-copzg6cb3o
+
+[D:/Developer/SourceRepository/hengyili.github.io/hengyili.github.io/Pages/Experience.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhwZXJpZW5jZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-69kkulq43o
+
+[D:/Developer/SourceRepository/hengyili.github.io/hengyili.github.io/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-letbwduczp
+
+[D:/Developer/SourceRepository/hengyili.github.io/hengyili.github.io/Pages/Projects.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-0rx1gmpw46
+
+[D:/Developer/SourceRepository/hengyili.github.io/hengyili.github.io/Pages/Skills.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2tpbGxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-azggsd3n0t

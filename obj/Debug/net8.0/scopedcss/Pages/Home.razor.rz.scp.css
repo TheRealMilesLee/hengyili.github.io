@@ -1,0 +1,90 @@
+/* Update the font-family to San Francisco for a more Apple aesthetic */
+body[b-letbwduczp] {
+    font-family: 'San Francisco', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Section */
+.header[b-letbwduczp] {
+    background-color: #1e1e1e; /* Dark header background */
+    color: #ffffff; /* White text color */
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+    .header h1[b-letbwduczp] {
+        font-size: 2.5rem;
+        color: #ffffff; /* White header text color */
+    }
+
+    .header p[b-letbwduczp] {
+        font-size: 1rem;
+        color: #8e8e93; /* Light gray subtext color */
+    }
+
+/* Body Section */
+.body[b-letbwduczp] {
+    padding: 20px;
+    background-color: #2c2c2c; /* Dark body background */
+    color: #ffffff; /* White text color */
+}
+
+/* Card styles */
+.card[b-letbwduczp] {
+    background-color: #1e1e1e; /* Dark card background */
+    color: #ffffff; /* White text color */
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+    /* About Me Section */
+    .card:nth-child(1)[b-letbwduczp] {
+        border-top: 5px solid #0070c9; /* Apple blue accent color */
+    }
+
+    /* Projects Section */
+    .card:nth-child(2)[b-letbwduczp] {
+        border-top: 5px solid #d9534f; /* Apple red accent color */
+    }
+
+    /* Skills Section */
+    .card:nth-child(3)[b-letbwduczp] {
+        border-top: 5px solid #5bc0de; /* Apple light blue accent color */
+    }
+
+/* Text color for card body */
+.card-body[b-letbwduczp] {
+    color: #ffffff; /* White text color */
+}
+
+/* Footer Section */
+.footer[b-letbwduczp] {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c2c2c; /* Dark footer background */
+    color: #ffffff; /* White text color */
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+/* Update responsive styles */
+@media (max-width: 768px) {
+    /* Adjust font size and styles for smaller screens */
+    .header h1[b-letbwduczp] {
+        font-size: 2rem;
+    }
+
+    .header p[b-letbwduczp] {
+        font-size: 0.9rem;
+    }
+
+    .h2[b-letbwduczp] {
+        font-size: 1.5rem;
+    }
+
+    .p[b-letbwduczp] {
+        font-size: 1rem;
+    }
+
+    .li[b-letbwduczp] {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Developer\\SourceRepository\\hengyili.github.io\\hengyili.github.io\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\Developer\\SourceRepository\\hengyili.github.io\\hengyili.github.io\\obj\\Debug\\net8.0\\compressed\\afm89amnc3.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\Developer\\SourceRepository\\hengyili.github.io\\hengyili.github.io\\obj\\Debug\\net8.0\\scopedcss\\bundle\\hengyili.github.io.styles.css",
+      "PackagePath": "staticwebassets\\hengyili.github.io.styles.css"
+    },
+    {
+      "Id": "D:\\Developer\\SourceRepository\\hengyili.github.io\\hengyili.github.io\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\Developer\\SourceRepository\\hengyili.github.io\\hengyili.github.io\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Developer\\SourceRepository\\hengyili.github.io\\hengyili.github.io\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Developer\\SourceRepository\\hengyili.github.io\\hengyili.github.io\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\Developer\\SourceRepository\\hengyili.github.io\\hengyili.github.io\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\Developer\\SourceRepository\\hengyili.github.io\\hengyili.github.io\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.hengyili.github.io.props",
+      "PackagePath": "build\\hengyili.github.io.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.hengyili.github.io.props",
+      "PackagePath": "buildMultiTargeting\\hengyili.github.io.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.hengyili.github.io.props",
+      "PackagePath": "buildTransitive\\hengyili.github.io.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.hengyili.github.io.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

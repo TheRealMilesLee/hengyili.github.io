@@ -1,0 +1,77 @@
+/* Reset some default styles */
+body[b-0rx1gmpw46], h1[b-0rx1gmpw46], h2[b-0rx1gmpw46], h3[b-0rx1gmpw46], p[b-0rx1gmpw46], span[b-0rx1gmpw46], hr[b-0rx1gmpw46], a[b-0rx1gmpw46] {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body[b-0rx1gmpw46] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ccc; /* Default text color */
+    background-color: #1e1e1e; /* Dark background color */
+}
+
+/* Body Section */
+.body[b-0rx1gmpw46] {
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark body background */
+}
+
+.h1[b-0rx1gmpw46] {
+    color: #fff; /* White h1 text color */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.h2[b-0rx1gmpw46], .h3[b-0rx1gmpw46] {
+    color: #ddd; /* Light gray h2 and h3 text color */
+    font-size: 20px; /* Adjust size as needed */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.p[b-0rx1gmpw46] {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.link[b-0rx1gmpw46] {
+    color: #ccc; /* Light gray link text color */
+}
+
+.separator[b-0rx1gmpw46] {
+    border-top: 1px solid #666; /* Medium gray separator line */
+    margin: 20px 0;
+}
+
+.project-section[b-0rx1gmpw46] {
+    margin-bottom: 20px;
+}
+
+.project-table td[b-0rx1gmpw46] {
+    color: #ccc; /* Light gray text color in the table */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .h1[b-0rx1gmpw46] {
+        font-size: 20px;
+    }
+
+    .h2[b-0rx1gmpw46] {
+        font-size: 18px;
+    }
+
+    .h3[b-0rx1gmpw46] {
+        font-size: 16px;
+    }
+
+    .p[b-0rx1gmpw46] {
+        font-size: 14px;
+    }
+}

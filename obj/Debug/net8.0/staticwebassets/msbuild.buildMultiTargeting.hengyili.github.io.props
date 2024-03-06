@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\hengyili.github.io.props" />
+</Project>
