@@ -1,16 +1,19 @@
 ﻿@page "/"
+@inject IJSRuntime JSRuntime
 <PageTitle>Home</PageTitle>
-<!-- Header Section -->
+<div id="threejs-container"></div> <!-- Container for Three.js animation -->
+
 <Animate Anchor="#b-animate" Auto Animation="Animations.FadeUp" DelayMilliseconds="500">
-<header class="header" @key="1">
-    <h1 class="header h1">Hengyi Li</h1>
-    <p class="header p">Master of Computer Science | GFW Security Analyst | Dreamer | Coder | Content Creator </p>
-</header>
+    <header class="header" @key="1">
+        <h1 class="header h1">Hengyi Li</h1>
+        <p class="header p">Master of Computer Science | GFW Security Analyst | Dreamer | Coder | Content Creator </p>
+    </header>
 </Animate>
+
 <body class="body">
     <Animate Anchor="#b-animate" Auto Animation="Animations.SlideLeft">
     <CardDeck>
-    <!-- About Me Section -->   
+    <!-- About Me Section -->
         <Card Background="Background.Dark">
             <CardHeader>
                 <h2 className="h2">About Me</h2>
@@ -62,6 +65,16 @@
 </footer>
 </Animate>
 
-@code 
+@code
 {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            var scriptPath = "/JS/threejs-animation.js"; // Correct path to the JavaScript file
+            await JSRuntime.InvokeVoidAsync("eval", System.IO.File.ReadAllText(scriptPath));
+        }
+    }
+
+
 }
